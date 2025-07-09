@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [ 
+    "rewoven:hedge", 
+    "rewoven:dandelion_hedge",
+    "rewoven:poppy_hedge",
+    "rewoven:blue_orchid_hedge",
+    "rewoven:allium_hedge",
+    "rewoven:azure_bluet_hedge",
+    "rewoven:red_tulip_hedge",
+    "rewoven:orange_tulip_hedge",
+    "rewoven:white_tulip_hedge",
+    "rewoven:pink_tulip_hedge",
+    "rewoven:oxeye_daisy_hedge",
+    "rewoven:cornflower_hedge",
+    "rewoven:lily_of_the_valley_hedge",
+    "rewoven:wither_rose_hedge"
+  ]
+}

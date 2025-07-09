@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "STS",
+    "EEE"
+  ],
+  "key": {
+    "T": "minecraft:torch",
+    "E": "rewoven:cracked_egg_shell",
+    "S": "minecraft:slime_ball"
+  },
+  "result": {
+    "id": "rewoven:egg_lantern",
+    "count": 1
+  }
+}

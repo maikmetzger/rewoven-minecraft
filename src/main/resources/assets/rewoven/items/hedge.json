@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "rewoven:block/hedge_inventory",
+		"tints": [
+			{
+				"type": "minecraft:constant",
+				"value": 4764696
+			}
+		]
+	}
+}

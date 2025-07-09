@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "rewoven:block/lily_of_the_valley_hedge_inventory",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 4764696
+      },
+      {
+        "type": "minecraft:constant",
+        "value": 15792368
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "rewoven:block/flower_hedge_side_template",
+  "textures": {
+    "overlay": "rewoven:block/flower_hedge_overlay_0"
+  }
+}

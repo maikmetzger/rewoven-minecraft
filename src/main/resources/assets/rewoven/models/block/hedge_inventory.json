@@ -1,0 +1,7 @@
+{
+  "parent": "rewoven:block/hedge_post_tinted",
+  "textures": {
+    "wall": "minecraft:block/oak_leaves",
+    "particle": "minecraft:block/oak_leaves"
+  }
+}

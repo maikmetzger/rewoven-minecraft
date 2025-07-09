@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_wall",
+	"textures": {
+		"wall": "minecraft:block/oak_leaves",
+		"particle": "#all"
+	}
+}

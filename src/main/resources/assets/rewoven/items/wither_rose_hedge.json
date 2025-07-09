@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "rewoven:block/wither_rose_hedge_inventory",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 4764696
+      },
+      {
+        "type": "minecraft:constant",
+        "value": 5057837
+      }
+    ]
+  }
+}

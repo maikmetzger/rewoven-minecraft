@@ -1,0 +1,6 @@
+{
+  "parent": "rewoven:block/egg_lantern",
+  "textures": {
+    "layer0": "rewoven:item/egg_lantern"
+  }
+}

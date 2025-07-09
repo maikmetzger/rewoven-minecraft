@@ -1,0 +1,18 @@
+{
+  "textures": { "wall": "minecraft:block/oak_leaves" },
+  "elements": [
+    { "from": [
+        3,
+        0,
+        0
+      ], "to": [ 13, 16, 8 ],
+      "faces": {
+        "down":  { "texture": "#wall", "cullface": "down",  "tintindex": 0 },
+        "up":    { "texture": "#wall",                     "tintindex": 0 },
+        "north": { "texture": "#wall", "cullface": "north","tintindex": 0 },
+        "west":  { "texture": "#wall",                     "tintindex": 0 },
+        "east":  { "texture": "#wall",                     "tintindex": 0 }
+      }
+    }
+  ]
+}

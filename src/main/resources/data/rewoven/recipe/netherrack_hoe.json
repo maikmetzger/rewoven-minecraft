@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NN ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "N": "minecraft:netherrack",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "rewoven:netherrack_hoe",
+    "count": 1
+  }
+}

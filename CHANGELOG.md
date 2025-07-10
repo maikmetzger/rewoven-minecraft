@@ -1,3 +1,14 @@
+# v0.2.0 #
+
+## Items ##
+- New: Netherrack Tools
+
+## Behavior ##
+
+### Items ###
+- **Netherrite Tools**: Can be crafted like pickaxes but with netherrite as a ressource with sticks. They are somewhere between wooden tools and stone tools in terms of durability, the speed is almost as fast as stone, however all tools have lower attack damage than even wood but higher attack speed than all tools. 
+
+
 # v0.0.1 #
 
 ## Blocks ##

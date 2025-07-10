@@ -21,6 +21,9 @@ Current **Rewoven** features revolve around:
 - **Natural Spreading** - Watch flower hedges naturally spread their beauty to nearby hedges
 - **Interactive Mechanics** - Use shears to trim flowering hedges back to regular ones
 
+### ⛏️Tools
+- **Netherrack Tools** - New tools crafted from netherrack, bridging the gap between wooden and stone tools, allowing for more nether possibilities with unique balancing.
+
 ## Automatic Installation
 
 1. Use a mod launcher, in this case Modrinth.

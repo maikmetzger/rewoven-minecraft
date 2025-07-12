@@ -33,17 +33,20 @@
               "functions": [
                 {
                   "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 2.0,
-                    "min": 1.0
-                  },
+                  "count": 1.0,
                   "function": "minecraft:set_count"
                 },
                 {
                   "enchantment": "minecraft:fortune",
                   "function": "minecraft:apply_bonus",
                   "formula": "minecraft:ore_drops"
+                },
+                {
+                  "function": "minecraft:limit_count",
+                  "limit": {
+                    "max": 3,
+                    "min": 1
+                  }
                 },
                 {
                   "function": "minecraft:explosion_decay"

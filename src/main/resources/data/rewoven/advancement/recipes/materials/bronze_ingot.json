@@ -34,9 +34,6 @@
   },
   "requirements": [
     [
-      "has_the_recipe"
-    ],
-    [
       "has_copper_ingot",
       "has_tin_ingot"
     ]

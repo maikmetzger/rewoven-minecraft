@@ -22,7 +22,6 @@
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_iron_ingot"
     ]
   ],

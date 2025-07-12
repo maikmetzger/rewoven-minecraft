@@ -1,6 +1,15 @@
 # Changelog
 
-All notable changes to Rewoven will be documented in this file.
+
+## [0.3.1] - 2025-07-12
+
+### Changed
+- **Limestone**: Adjusted limestone drop rate to only drop one Limestone Piece without fortune
+- **Tin Ore**: Adjusted raw tin drop rate to only drop one Raw Tin without fortune.
+
+### Fixed
+- **Bronze Ingot**: Crafting recipe not unlocking on collecting copper ingot
+- **Steel Ingot**: Crafting recipe not unlocking on collecting iron ingot
 
 ## [0.3.0] - 2025-07-12
 

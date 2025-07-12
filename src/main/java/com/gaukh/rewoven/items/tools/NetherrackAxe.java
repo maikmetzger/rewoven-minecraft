@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 public class NetherrackAxe extends AxeItem {
     public static final Item NETHERRACK_AXE = ModItems.register(
             "netherrack_axe",
-            settings -> new NetherrackAxe(ModToolMaterials.NETHERRACK, 3.0F, -2.6F, settings),
+            settings -> new NetherrackAxe(ModToolMaterials.NETHERRACK, 6.0F, -3.2F, settings),
             new Item.Settings().enchantable(ModToolMaterials.NETHERRACK.enchantmentValue())
     );
 

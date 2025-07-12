@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "rewoven:carbon_dust",
+    "rewoven:carbon_dust",
+    "rewoven:lime"
+  ],
+  "result": {
+    "id": "rewoven:steel_ingot",
+    "count": 1
+  }
+}

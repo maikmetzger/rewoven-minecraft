@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "rewoven:netherrack_axe"
+    "rewoven:netherrack_axe",
+    "rewoven:copper_axe",
+    "rewoven:bronze_axe",
+    "rewoven:steel_axe"
   ]
 }

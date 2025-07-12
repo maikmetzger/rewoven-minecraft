@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "rewoven:netherrack_pickaxe"
+    "rewoven:netherrack_pickaxe",
+    "rewoven:copper_pickaxe",
+    "rewoven:bronze_pickaxe",
+    "rewoven:steel_pickaxe"
   ]
 }

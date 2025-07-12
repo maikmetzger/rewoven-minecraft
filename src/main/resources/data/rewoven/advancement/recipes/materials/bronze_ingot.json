@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tin_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rewoven:tin_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rewoven:bronze_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe"
+    ],
+    [
+      "has_copper_ingot",
+      "has_tin_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rewoven:bronze_ingot"
+    ]
+  }
+}

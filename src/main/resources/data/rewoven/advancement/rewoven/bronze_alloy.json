@@ -1,0 +1,37 @@
+{
+  "parent": "rewoven:rewoven/tin_discovery",
+  "criteria": {
+    "has_bronze_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rewoven:bronze_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.rewoven.bronze_alloy.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "rewoven:bronze_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.rewoven.bronze_alloy.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_bronze_ingot"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "rewoven:rewoven/steel_mastery",
+  "criteria": {
+    "has_steel_tool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rewoven:steel_pickaxe",
+              "rewoven:steel_sword",
+              "rewoven:steel_axe",
+              "rewoven:steel_shovel",
+              "rewoven:steel_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.rewoven.steel_tools.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "rewoven:steel_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.rewoven.steel_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_steel_tool"
+    ]
+  ]
+}

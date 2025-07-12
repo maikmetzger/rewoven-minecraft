@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "rewoven:netherrack_hoe"
+    "rewoven:netherrack_hoe",
+    "rewoven:copper_hoe",
+    "rewoven:bronze_hoe",
+    "rewoven:steel_hoe"
   ]
 }

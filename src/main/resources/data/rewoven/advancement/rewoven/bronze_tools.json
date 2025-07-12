@@ -1,0 +1,41 @@
+{
+  "parent": "rewoven:rewoven/bronze_alloy",
+  "criteria": {
+    "has_bronze_tool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rewoven:bronze_pickaxe",
+              "rewoven:bronze_sword",
+              "rewoven:bronze_axe",
+              "rewoven:bronze_shovel",
+              "rewoven:bronze_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.rewoven.bronze_tools.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "rewoven:bronze_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.rewoven.bronze_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_bronze_tool"
+    ]
+  ]
+}

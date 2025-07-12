@@ -1,5 +1,6 @@
 package com.gaukh.rewoven;
 
+import com.gaukh.rewoven.blocks.*;
 import com.gaukh.rewoven.blocks.EggLantern;
 import com.gaukh.rewoven.blocks.Hedge;
 import com.gaukh.rewoven.blocks.DandelionHedge;
@@ -30,7 +31,15 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class ModBlocks {
-   public static final Block EGG_LANTERN = EggLantern.EGG_LANTERN;
+    // Functional Blocks
+    public static final Block EGG_LANTERN = EggLantern.EGG_LANTERN;
+    
+    // Ore Blocks
+    public static final Block TIN_ORE = TinOre.TIN_ORE;
+    public static final Block DEEPSLATE_TIN_ORE = DeepslateTinOre.DEEPSLATE_TIN_ORE;
+    public static final Block LIMESTONE = Limestone.LIMESTONE;
+    
+    // Hedge Blocks
     public static final Block HEDGE = Hedge.HEDGE;
     public static final Block DANDELION_HEDGE = DandelionHedge.DANDELION_HEDGE;
     public static final Block POPPY_HEDGE = PoppyHedge.POPPY_HEDGE;
@@ -75,12 +84,27 @@ public class ModBlocks {
     }
 
     public static void initialize() {
+        // Functional Blocks
         EggLantern.initialize();
+        
+        // Ore Blocks
+        TinOre.initialize();
+        DeepslateTinOre.initialize();
+        Limestone.initialize();
+        
+        // Hedge Blocks
         Hedge.initialize();
         
         // Flower hedges are automatically registered in their static blocks
         // and added to item groups via FlowerHedgeBase initialization
         initializeFlowerHedges();
+        
+        // Add ore blocks to creative tab
+        ItemGroupEvents.modifyEntriesEvent(ModItems.REWOVEN_ITEM_GROUP_KEY).register((entries) -> {
+            entries.add(TIN_ORE);
+            entries.add(DEEPSLATE_TIN_ORE);
+            entries.add(LIMESTONE);
+        });
     }
     
     private static void initializeFlowerHedges() {

@@ -149,3 +149,6 @@ mods/
 *.swp
 
 CLAUDE.md
+
+plan/
+src/main/generated

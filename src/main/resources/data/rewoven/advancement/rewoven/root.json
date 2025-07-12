@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/white_wool",
+    "description": {
+      "translate": "advancement.rewoven.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "rewoven:copper_pickaxe"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.rewoven.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

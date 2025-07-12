@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "rewoven:copper_hoe",
+    "count": 1
+  }
+}

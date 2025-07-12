@@ -7,7 +7,7 @@ import net.minecraft.item.ShovelItem;
 public class NetherrackShovel extends ShovelItem {
     public static final Item NETHERRACK_SHOVEL = ModItems.register(
             "netherrack_shovel",
-            settings -> new NetherrackShovel(ModToolMaterials.NETHERRACK, 0.0F, -2.4F, settings),
+            settings -> new NetherrackShovel(ModToolMaterials.NETHERRACK, 1.5F, -3.0F, settings),
             new Item.Settings().enchantable(ModToolMaterials.NETHERRACK.enchantmentValue())
     );
 

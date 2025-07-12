@@ -1,0 +1,37 @@
+{
+  "parent": "rewoven:rewoven/steel_ingredients",
+  "criteria": {
+    "has_steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rewoven:steel_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.rewoven.steel_mastery.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "rewoven:steel_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.rewoven.steel_mastery.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_steel_ingot"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:needs_diamond_tool",
+    "#minecraft:needs_gold_tool",
+    "#rewoven:needs_steel_tool",
+    "#minecraft:needs_iron_tool",
+    "#rewoven:needs_bronze_tool",
+    "#rewoven:needs_copper_tool",
+    "#minecraft:needs_stone_tool"
+  ]
+}

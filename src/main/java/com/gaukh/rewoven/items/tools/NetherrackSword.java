@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 public class NetherrackSword extends BaseSwordItem {
     public static final Item NETHERRACK_SWORD = ModItems.register(
             "netherrack_sword",
-            settings -> new NetherrackSword(ModToolMaterials.NETHERRACK, 2.0F, -1.8F, settings),
+            settings -> new NetherrackSword(ModToolMaterials.NETHERRACK, 1.5F, -1.8F, settings),
             new Item.Settings()
     );
 

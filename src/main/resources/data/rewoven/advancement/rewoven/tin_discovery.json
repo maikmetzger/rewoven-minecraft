@@ -1,0 +1,37 @@
+{
+  "parent": "rewoven:rewoven/copper_tools",
+  "criteria": {
+    "has_tin_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rewoven:tin_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.rewoven.tin_discovery.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "rewoven:tin_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.rewoven.tin_discovery.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_tin_ingot"
+    ]
+  ]
+}

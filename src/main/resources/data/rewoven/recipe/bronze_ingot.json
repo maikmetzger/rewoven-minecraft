@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:copper_ingot",
+    "rewoven:tin_ingot"
+
+  ],
+  "result": {
+    "id": "rewoven:bronze_ingot",
+    "count": 1
+  }
+}

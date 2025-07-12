@@ -8,7 +8,7 @@ import net.minecraft.item.ToolMaterial;
 public class NetherrackHoe extends HoeItem {
     public static final Item NETHERRACK_HOE = ModItems.register(
             "netherrack_hoe",
-            settings -> new NetherrackHoe(ModToolMaterials.NETHERRACK, -1.0F, -2.2F, settings),
+            settings -> new NetherrackHoe(ModToolMaterials.NETHERRACK, -0.5F, -3.0F, settings),
             new Item.Settings().enchantable(ModToolMaterials.NETHERRACK.enchantmentValue())
     );
 

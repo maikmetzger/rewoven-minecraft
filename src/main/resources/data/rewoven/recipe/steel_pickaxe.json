@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "S": "rewoven:steel_ingot",
+    "T": "minecraft:stick"
+  },
+  "result": {
+    "id": "rewoven:steel_pickaxe",
+    "count": 1
+  }
+}

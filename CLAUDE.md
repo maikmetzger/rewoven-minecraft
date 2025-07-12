@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Rewoven is a Minecraft 1.21.6 Fabric mod that adds enhanced egg mechanics and a comprehensive hedge system with flowering variants. The mod extends vanilla Minecraft with new blocks, items, and interactive mechanics.
+Rewoven is a Minecraft 1.21.6 Fabric mod that adds enhanced egg mechanics, a comprehensive hedge system with flowering variants, and netherrack tools. The mod extends vanilla Minecraft with new blocks, items, and interactive mechanics.
 
 ## Build and Development Commands
 
@@ -12,6 +12,7 @@ Rewoven is a Minecraft 1.21.6 Fabric mod that adds enhanced egg mechanics and a 
 - **Build the mod**: `./gradlew build --no-daemon`
 - **Run client for testing**: `./gradlew runClient`
 - **Clean build artifacts**: `./gradlew clean`
+- **Generate data files**: `./gradlew runDatagen`
 
 ### Development Environment
 - **Minecraft Version**: 1.21.6
@@ -49,6 +50,11 @@ The hedge system is the mod's main feature, implementing a flowering hedge mecha
 #### Block Entity System
 - `EggLantern` + `EggLanternEntity` - Dyeable light-emitting blocks using NBT persistence
 - Modern 1.21.6 NBT patterns with `WriteView`/`ReadView`
+
+#### Tool System
+- **Netherrack Tools**: Full tool set (sword, pickaxe, axe, shovel, hoe)
+- Balanced between wood and stone tier with unique attack speed/damage trade-offs
+- Lower attack damage than wood but higher attack speed
 
 #### Client-Side Rendering
 - **Color Providers**: Dual-layer tinting system for flower hedges (oak leaves base + flower overlay)
@@ -115,6 +121,7 @@ ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
 - NBT handling uses `WriteView`/`ReadView` pattern
 - Equipment break status requires `EquipmentSlot` parameter
 - `ActionResult.success()` no longer takes boolean parameter
+- Fabric Loom 1.10-SNAPSHOT with split environment source sets
 
 ## Features Summary
 
@@ -128,3 +135,9 @@ ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
 - **Spreading Mechanics**: Random tick spreading between hedges in light level 9+
 - **Interactive Conversion**: Right-click mechanics for flower application and shears trimming
 - **Wall Connectivity**: Full wall connection system matching vanilla walls
+
+### Netherrack Tools
+- **Tool Types**: Sword, Pickaxe, Axe, Shovel, Hoe
+- **Tier Balance**: Between wood and stone durability
+- **Speed**: Almost as fast as stone tools
+- **Combat**: Lower attack damage than wood but higher attack speed

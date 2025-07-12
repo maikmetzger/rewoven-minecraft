@@ -4,6 +4,7 @@ import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.component.type.ToolComponent;
+import net.minecraft.component.type.WeaponComponent;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.Item;
@@ -23,7 +24,8 @@ public class BaseSwordItem extends Item {
     public BaseSwordItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
         super(settings
                 .component(DataComponentTypes.TOOL, createToolComponent())
-                .component(DataComponentTypes.ATTRIBUTE_MODIFIERS, createAttributeModifiers(attackDamage, attackSpeed))
+                .component(DataComponentTypes.ATTRIBUTE_MODIFIERS, createAttributeModifiers(attackDamage, attackSpeed, material))
+                .component(DataComponentTypes.WEAPON, new WeaponComponent(2, 0.0F))
                 .maxDamage(material.durability())
                 .repairable(material.repairItems())
                 .enchantable(material.enchantmentValue())
@@ -44,12 +46,12 @@ public class BaseSwordItem extends Item {
         );
     }
     
-    private static AttributeModifiersComponent createAttributeModifiers(float attackDamage, float attackSpeed) {
+    private static AttributeModifiersComponent createAttributeModifiers(float attackDamage, float attackSpeed, ToolMaterial material) {
         return AttributeModifiersComponent.builder()
                 .add(EntityAttributes.ATTACK_DAMAGE, 
                      new EntityAttributeModifier(
                          Identifier.ofVanilla("base_attack_damage"),
-                         attackDamage,
+                         attackDamage + material.attackDamageBonus(),
                          EntityAttributeModifier.Operation.ADD_VALUE
                      ), 
                      AttributeModifierSlot.MAINHAND)

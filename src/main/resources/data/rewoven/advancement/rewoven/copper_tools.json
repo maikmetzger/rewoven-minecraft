@@ -1,0 +1,41 @@
+{
+  "parent": "rewoven:rewoven/root",
+  "criteria": {
+    "has_copper_tool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rewoven:copper_pickaxe",
+              "rewoven:copper_sword",
+              "rewoven:copper_axe",
+              "rewoven:copper_shovel",
+              "rewoven:copper_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.rewoven.copper_tools.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "rewoven:copper_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.rewoven.copper_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_tool"
+    ]
+  ]
+}

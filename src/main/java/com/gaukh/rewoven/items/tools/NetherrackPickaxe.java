@@ -3,21 +3,21 @@ package com.gaukh.rewoven.items.tools;
 import com.gaukh.rewoven.ModItems;
 import net.minecraft.item.Item;
 
-public class NetherrackPickaxe extends BasePickaxeItem {
+public class NetherrackPickaxe extends Item {
     public static final Item NETHERRACK_PICKAXE = ModItems.register(
             "netherrack_pickaxe",
-            settings -> new NetherrackPickaxe(ModToolMaterials.NETHERRACK, 1.0F, -2.4F, settings),
-            new Item.Settings()
+            settings -> new NetherrackPickaxe(settings),
+            createNetherrackPickaxeSettings()
     );
 
-    public NetherrackPickaxe(net.minecraft.item.ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
-        super(material, attackDamage, attackSpeed, settings);
+    public NetherrackPickaxe(Settings settings) {
+        super(settings);
     }
 
-    /**
-     * Initializes the netherrack pickaxe item.
-     * This method should be called during mod initialization.
-     */
+    private static Item.Settings createNetherrackPickaxeSettings() {
+        return ModToolMaterials.applyPickaxeSettings(ModToolMaterials.NETHERRACK, new Item.Settings(), 1.0F, -2.8F);
+    }
+
     public static void initialize() {
         // Item is already registered via the static field
     }

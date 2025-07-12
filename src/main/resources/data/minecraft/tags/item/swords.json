@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "rewoven:netherrack_sword"
+    "rewoven:netherrack_sword",
+    "rewoven:copper_sword",
+    "rewoven:bronze_sword",
+    "rewoven:steel_sword"
   ]
 }
